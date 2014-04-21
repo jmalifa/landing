@@ -1,0 +1,111 @@
+html, body {
+  height:100%;
+}
+
+html body {
+  height:100%;
+  margin-bottom:0px;
+  background-color: white;
+}
+
+html body div.container-fluid {
+  height:100%;
+}
+
+html body div.container-fluid div.row {
+  height:100%;
+}
+.left-column {
+  background-image:url('../img/bg.jpg');
+  height:100%;
+  position: relative;
+}
+
+.phone {
+  position:absolute;
+  width:30%;
+  left:400px;
+  top:145px;
+
+}
+
+.logo {
+  width:200px;
+  margin: 0 auto;
+  margin-top:300px;
+}
+
+h4 {
+  text-align: center;
+  margin:20px 0 20px 0;
+}
+p {
+  width:400px;
+  text-align: center;
+  margin:0 auto;
+  font-size:18px;
+
+}
+
+body > div > div > div.col-md-4.right-column > p {
+  font-size:14px;
+  margin-bottom:30px;
+}
+
+.button {
+  width:200px;
+  margin:0 auto;
+
+}
+
+a {
+  margin-right:60px;
+  margin-left:60px;
+}
+
+/*------------- ALL MEDIA QUERIES ------------*/
+
+@media(max-width:767px) {
+
+.mobile {
+  width:100%;
+}
+
+.logo-container {
+  background:white;
+  height:94px;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.logo-container img {
+  display:block;
+  margin:0 auto;
+
+}
+
+.main {
+  background-image:url('../img/bg.jpg');
+  height:790px;
+
+}
+
+.main h4{
+  color:white;
+  width:70%;
+  margin:0 auto;
+  font-size: 20px;
+  font-weight:200;
+  text-align: center;
+  padding:10px 0px 10px 0px;
+}
+
+.main p{
+  color:white;
+  width:70%;
+  font-size: 12px;
+  font-weight:100;
+  padding:10px 0px 10px 0px;
+}
+
